@@ -2,7 +2,6 @@ name: MinnaDich
 options:
   bundleIdPrefix: com.minnadich
   createIntermediateGroups: true
-  xcodeVersion: "15.0"
 targets:
   MinnaDich:
     type: application
@@ -10,11 +9,14 @@ targets:
     deploymentTarget: "16.0"
     sources:
       - path: MinnaDich
+        excludes:
+          - "**/Info.plist"
+    info:
+      path: MinnaDich/Resources/Info.plist
     settings:
       base:
-        PRODUCT_NAME: "Minna Dịch"
+        PRODUCT_NAME: "MinnaDich"
         PRODUCT_BUNDLE_IDENTIFIER: com.minnadich.app
-        INFOPLIST_FILE: MinnaDich/Resources/Info.plist
         SWIFT_VERSION: "5.9"
         TARGETED_DEVICE_FAMILY: "1,2"
         CODE_SIGNING_ALLOWED: "NO"
@@ -24,4 +26,10 @@ targets:
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         DEVELOPMENT_TEAM: ""
         ENABLE_BITCODE: "NO"
-        GENERATE_INFOPLIST_FILE: "NO"
+schemes:
+  MinnaDich:
+    build:
+      targets:
+        MinnaDich: all
+    archive:
+      config: Release
