@@ -21,7 +21,7 @@ public final class ProgressStore: ObservableObject {
         }
         
         do {
-            let decoded = try JSONDecoder().decode([String: ExerciseProgress].self, data: data)
+            let decoded = try JSONDecoder().decode([String: ExerciseProgress].self, from: data)
             self.progressMap = decoded
         } catch {
             print("⚠️ [ProgressStore] Lỗi load tiến độ: \(error)")

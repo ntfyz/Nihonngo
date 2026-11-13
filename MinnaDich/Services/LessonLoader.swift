@@ -15,7 +15,7 @@ public final class LessonLoader {
         do {
             let data = try Data(contentsOf: url)
             let decoder = JSONDecoder()
-            let container = try decoder.decode(LessonsContainer.self, data: data)
+            let container = try decoder.decode(LessonsContainer.self, from: data)
             return container.lessons.sorted(by: { $0.lesson < $1.lesson })
         } catch {
             print("❌ [LessonLoader] Lỗi decode file \(filename).json: \(error)")
