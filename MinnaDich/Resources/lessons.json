@@ -1,0 +1,1815 @@
+{
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "Bài 1: Giới thiệu bản thân & Nghề nghiệp",
+      "grammarPoints": [
+        "N1 は N2 です (N1 là N2)",
+        "N1 は N2 じゃありません / ではありません (N1 không phải là N2)",
+        "N1 は N2 ですか (N1 có phải là N2 không?)",
+        "N1 も N2 です (N1 cũng là N2)",
+        "N1 の N2 (N2 của N1 / N2 thuộc tổ chức N1)",
+        "〜歳 / おいくつ (Tuổi tác)"
+      ],
+      "exercises": [
+        {
+          "id": "L1-001",
+          "vi": "Tôi là kỹ sư.",
+          "answer": "わたしは エンジニアです。",
+          "romaji": "Watashi wa enjinia desu.",
+          "alternatives": ["私はエンジニアです。", "わたしはエンジニアです。"],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đọc là 'wa', dùng để đánh dấu 'Tôi' (わたし) là chủ đề chính được nói đến trong câu."
+            }
+          ]
+        },
+        {
+          "id": "L1-002",
+          "vi": "Anh Nam không phải là bác sĩ.",
+          "answer": "ナムさんは いしゃじゃありません。",
+          "romaji": "Nam-san wa isha ja arimasen.",
+          "alternatives": [
+            "ナムさんは医者じゃありません。",
+            "ナムさんは医者ではありません。",
+            "ナムさんは いしゃではありません。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu anh Nam là chủ đề được phủ định danh tính/nghề nghiệp."
+            }
+          ]
+        },
+        {
+          "id": "L1-003",
+          "vi": "Chị Mai có phải là giáo viên không?",
+          "answer": "マイさんは せんせいですか。",
+          "romaji": "Mai-san wa sensei desu ka.",
+          "alternatives": [
+            "マイさんは先生ですか。",
+            "マイさんは教師ですか。",
+            "マイさんはきょうしですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu 'chị Mai' là chủ đề cần hỏi."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ đặt ở cuối câu để tạo thành câu hỏi nghi vấn."
+            }
+          ]
+        },
+        {
+          "id": "L1-004",
+          "vi": "Tôi cũng là người Việt Nam.",
+          "answer": "わたしも ベトナムじんです。",
+          "romaji": "Watashi mo Betonamu-jin desu.",
+          "alternatives": [
+            "私もベトナム人です。",
+            "わたしもベトナム人です。",
+            "私もベトナムじんです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "も",
+              "explain": "Mang nghĩa 'cũng', thay thế cho 'は' khi thông tin đối với chủ thể này đồng nhất với chủ thể trước đó."
+            }
+          ]
+        },
+        {
+          "id": "L1-005",
+          "vi": "Anh Tanaka là nhân viên công ty Sakura.",
+          "answer": "たなかさんは さくらやまの しゃいんです。",
+          "romaji": "Tanaka-san wa Sakura-sha no shain desu.",
+          "alternatives": [
+            "田中さんはさくらの社員です。",
+            "田中さんはさくら会社の社員です。",
+            "たなかさんはさくらのしゃいんです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu anh Tanaka là chủ đề của câu."
+            },
+            {
+              "particle": "の",
+              "explain": "Nối hai danh từ, biểu thị trực thuộc (nhân viên thuộc công ty Sakura)."
+            }
+          ]
+        },
+        {
+          "id": "L1-006",
+          "vi": "Anh ấy là học sinh.",
+          "answer": "あのかたは がくせいです。",
+          "romaji": "Ano kata wa gakusei desu.",
+          "alternatives": [
+            "あの人は学生です。",
+            "彼は学生です。",
+            "あのかたは学生です。",
+            "あのひとはがくせいです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu chủ đề 'người đó / anh ấy'."
+            }
+          ]
+        },
+        {
+          "id": "L1-007",
+          "vi": "Chị Hoa năm nay 25 tuổi.",
+          "answer": "ホアさんは にじゅうごさいです。",
+          "romaji": "Hoa-san wa nijuugo-sai desu.",
+          "alternatives": [
+            "ホアさんは25歳です。",
+            "ホアさんは二十五歳です。",
+            "ホアさんは25さいです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu chị Hoa là chủ đề nêu tuổi tác."
+            }
+          ]
+        },
+        {
+          "id": "L1-008",
+          "vi": "Bạn bao nhiêu tuổi?",
+          "answer": "おいくつですか。",
+          "romaji": "Oikutsu desu ka.",
+          "alternatives": [
+            "なんさいですか。",
+            "何歳ですか。",
+            "あなたは何歳ですか。",
+            "あなたはおいくつですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "か",
+              "explain": "Trợ từ nghi vấn cuối câu dùng để hỏi tuổi."
+            }
+          ]
+        },
+        {
+          "id": "L1-009",
+          "vi": "Vị kia là ai vậy?",
+          "answer": "あのかたは どなたですか。",
+          "romaji": "Ano kata wa donata desu ka.",
+          "alternatives": [
+            "あのかたはどなたですか。",
+            "あの方はどなたですか。",
+            "あの人は誰ですか。",
+            "あのひとはだれですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu vị kia là đối tượng cần hỏi danh tính."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ nghi vấn cuối câu."
+            }
+          ]
+        },
+        {
+          "id": "L1-010",
+          "vi": "Bé Taro 8 tuổi.",
+          "answer": "タロウくんは はっさいです。",
+          "romaji": "Tarou-kun wa hassai desu.",
+          "alternatives": [
+            "タロウくんは8歳です。",
+            "太郎君は8歳です。",
+            "タロウちゃんは8さいです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu chủ đề bé Taro."
+            }
+          ]
+        },
+        {
+          "id": "L1-011",
+          "vi": "Tôi không phải là người Nhật.",
+          "answer": "わたしは にほんじんじゃありません。",
+          "romaji": "Watashi wa Nihon-jin ja arimasen.",
+          "alternatives": [
+            "私は日本人じゃありません。",
+            "私は日本人ではありません。",
+            "わたしはにほんじんではありません。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu chủ ngữ 'Tôi' trong câu phủ định."
+            }
+          ]
+        },
+        {
+          "id": "L1-012",
+          "vi": "Anh John cũng là người Mỹ à?",
+          "answer": "ジョンさんも アメリカじんですか。",
+          "romaji": "Jon-san mo Amerika-jin desu ka.",
+          "alternatives": [
+            "ジョンさんもアメリカ人ですか。",
+            "ジョンさんもアメリカじんですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "も",
+              "explain": "Biểu thị 'cũng là người Mỹ'."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi cuối câu."
+            }
+          ]
+        },
+        {
+          "id": "L1-013",
+          "vi": "Kia là giáo viên của trường đại học.",
+          "answer": "あのかたは だいがくの せんせいです。",
+          "romaji": "Ano kata wa daigaku no sensei desu.",
+          "alternatives": [
+            "あの方は大学の先生です。",
+            "あの人は大学の先生です。",
+            "あの人は大学の教師です。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu người kia là chủ đề."
+            },
+            {
+              "particle": "の",
+              "explain": "Chỉ mối quan hệ sở thuộc (giáo viên của trường đại học)."
+            }
+          ]
+        },
+        {
+          "id": "L1-014",
+          "vi": "Anh Lee là người Hàn Quốc.",
+          "answer": "イさんは かんこくじんです。",
+          "romaji": "I-san wa Kankoku-jin desu.",
+          "alternatives": [
+            "イさんは韓国人です。",
+            "リーさんは韓国人です。",
+            "リーさんはかんこくじんです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu anh Lee là chủ ngữ."
+            }
+          ]
+        },
+        {
+          "id": "L1-015",
+          "vi": "Tôi là nhà nghiên cứu.",
+          "answer": "わたしは けんきゅうしゃです。",
+          "romaji": "Watashi wa kenkyuusha desu.",
+          "alternatives": [
+            "私は研究者です。",
+            "わたしは研究者です。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu tôi là chủ thể mang nghề nghiệp nhà nghiên cứu."
+            }
+          ]
+        },
+        {
+          "id": "L1-016",
+          "vi": "Rất vui được làm quen với bạn.",
+          "answer": "どうぞ よろしく おねがいします。",
+          "romaji": "Douzo yoroshiku onegaishimasu.",
+          "alternatives": [
+            "どうぞよろしくお願いします。",
+            "よろしくおねがいします。",
+            "よろしくお願いします。"
+          ],
+          "particleNotes": []
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "title": "Bài 2: Đồ vật & Từ chỉ định",
+      "grammarPoints": [
+        "これ / それ / あれ は N です (Cái này/đó/kia là N)",
+        "この / その / あの N は ... です (N này/đó/kia là...)",
+        "そうです / そうじゃありません (Đúng vậy / Không phải vậy)",
+        "N1 ですか、N2 ですか (Câu hỏi lựa chọn)",
+        "N1 の N2 (Sở hữu: của ai; Về thể loại: sách gì)"
+      ],
+      "exercises": [
+        {
+          "id": "L2-001",
+          "vi": "Cái này là quyển từ điển.",
+          "answer": "これは じしょです。",
+          "romaji": "Kore wa jisho desu.",
+          "alternatives": ["これは辞書です。"],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu vật gần người nói (これ) làm chủ đề."
+            }
+          ]
+        },
+        {
+          "id": "L2-002",
+          "vi": "Cái đó là cái ô của tôi.",
+          "answer": "それは わたしの かさです。",
+          "romaji": "Sore wa watashi no kasa desu.",
+          "alternatives": [
+            "それは私の傘です。",
+            "それはわたしのかさです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu vật gần người nghe (それ) làm chủ đề."
+            },
+            {
+              "particle": "の",
+              "explain": "Biểu thị quyền sở hữu (của tôi: わたしの)."
+            }
+          ]
+        },
+        {
+          "id": "L2-003",
+          "vi": "Cái kia là xe hơi của ai vậy?",
+          "answer": "あれは だれの くるまですか。",
+          "romaji": "Are wa dare no kuruma desu ka.",
+          "alternatives": [
+            "あれは誰の車ですか。",
+            "あれはだれの車ですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu vật xa cả hai người (あれ) làm chủ đề câu."
+            },
+            {
+              "particle": "の",
+              "explain": "Đi sau từ để hỏi だれ để hỏi về quyền sở hữu (của ai)."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ tạo câu hỏi."
+            }
+          ]
+        },
+        {
+          "id": "L2-004",
+          "vi": "Chiếc cặp này là của anh Suzuki.",
+          "answer": "このかばんは すずきさんのです。",
+          "romaji": "Kono kaban wa Suzuki-san no desu.",
+          "alternatives": [
+            "この鞄は鈴木さんのです。",
+            "このカバンは鈴木さんのです。",
+            "このかばんは鈴木さんのです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu cụm 'chiếc cặp này' (このかばん) làm chủ đề."
+            },
+            {
+              "particle": "の",
+              "explain": "Thay thế cho danh từ đã nhắc phía trước (của anh Suzuki = すずきさんの [かばん])."
+            }
+          ]
+        },
+        {
+          "id": "L2-005",
+          "vi": "Đây là sách tiếng Nhật à? — Vâng, đúng vậy.",
+          "answer": "これは にほんごのほんですか。はい、そうです。",
+          "romaji": "Kore wa Nihongo no hon desu ka. Hai, sou desu.",
+          "alternatives": [
+            "これは日本語の本ですか。はい、そうです。",
+            "これは日本語の本ですか。はい、そうです"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu 'cái này' là chủ đề."
+            },
+            {
+              "particle": "の",
+              "explain": "Nêu rõ nội dung của cuốn sách (sách về tiếng Nhật)."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi nghi vấn."
+            }
+          ]
+        },
+        {
+          "id": "L2-006",
+          "vi": "Cái đó là bút chì kim hay là bút bi?",
+          "answer": "それは シャープペンシルですか、ボールペンですか。",
+          "romaji": "Sore wa shaapu penshiru desu ka, boorupen desu ka.",
+          "alternatives": [
+            "それはシャープペンシルですか、ボールペンですか。",
+            "それはシャーペンですか、ボールペンですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu đồ vật cần hỏi."
+            },
+            {
+              "particle": "か",
+              "explain": "Được lặp lại ở hai vế để tạo câu hỏi lựa chọn (A hay là B)."
+            }
+          ]
+        },
+        {
+          "id": "L2-007",
+          "vi": "Quyển sổ tay đó không phải của tôi.",
+          "answer": "そのてちょうは わたしのではないです。",
+          "romaji": "Sono techou wa watashi no dewa nai desu.",
+          "alternatives": [
+            "その手帳は私のではありません。",
+            "その手帳は私のじゃありません。",
+            "そのてちょうはわたしのじゃありません。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu quyển sổ tay đó làm chủ đề."
+            },
+            {
+              "particle": "の",
+              "explain": "Đại từ hóa danh từ (của tôi)."
+            }
+          ]
+        },
+        {
+          "id": "L2-008",
+          "vi": "Chìa khóa này là chìa khóa ô tô.",
+          "answer": "このかぎは くるまのかぎです。",
+          "romaji": "Kono kagi wa kuruma no kagi desu.",
+          "alternatives": [
+            "この鍵は車の鍵です。",
+            "この鍵はくるまのかぎです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu chiếc chìa khóa này."
+            },
+            {
+              "particle": "の",
+              "explain": "Biểu thị tính chất/mục đích (chìa khóa dùng cho ô tô)."
+            }
+          ]
+        },
+        {
+          "id": "L2-009",
+          "vi": "Cái kia là đồng hồ của nước nào vậy?",
+          "answer": "あれは どこの とけいですか。",
+          "romaji": "Are wa doko no tokei desu ka.",
+          "alternatives": [
+            "あれはどこの時計ですか。",
+            "あれはどこのとけいですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu vật ở xa."
+            },
+            {
+              "particle": "の",
+              "explain": "Nối nơi sản xuất/hãng với món đồ (đồng hồ của nước nào/hãng nào)."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi."
+            }
+          ]
+        },
+        {
+          "id": "L2-010",
+          "vi": "Đây là món quà nhỏ tặng bạn.",
+          "answer": "これは ほんのきもちです。",
+          "romaji": "Kore wa hon no kimochi desu.",
+          "alternatives": [
+            "これはほんの気持ちです。",
+            "これは、ほんの気持ちです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu chủ đề món quà đang trao."
+            },
+            {
+              "particle": "の",
+              "explain": "Trong cụm thành ngữ 'ほんのきもち' (chút lòng thành)."
+            }
+          ]
+        },
+        {
+          "id": "L2-011",
+          "vi": "Cái này là số 9 hay số 7?",
+          "answer": "これは きゅうですか、ななですか。",
+          "romaji": "Kore wa kyuu desu ka, nana desu ka.",
+          "alternatives": [
+            "これは9ですか、7ですか。",
+            "これは九ですか、七ですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "か",
+              "explain": "Câu hỏi lựa chọn giữa hai phương án."
+            }
+          ]
+        },
+        {
+          "id": "L2-012",
+          "vi": "Tạp chí kia là tạp chí máy tính.",
+          "answer": "あのざっしは コンピューターのざっしです。",
+          "romaji": "Ano zasshi wa konpyuutaa no zasshi desu.",
+          "alternatives": [
+            "あの雑誌はコンピューターの雑誌です。",
+            "あの雑誌はパソコンの雑誌です。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu tạp chí ở đằng xa."
+            },
+            {
+              "particle": "の",
+              "explain": "Nêu đề tài/chuyên môn của tạp chí (tạp chí về máy tính)."
+            }
+          ]
+        },
+        {
+          "id": "L2-013",
+          "vi": "Cái đó không phải là thẻ tín dụng.",
+          "answer": "それは クレジットカードじゃありません。",
+          "romaji": "Sore wa kurejitto kaado ja arimasen.",
+          "alternatives": [
+            "それはクレジットカードではありません。",
+            "それはカードではありません。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu chủ thể của câu phủ định."
+            }
+          ]
+        },
+        {
+          "id": "L2-014",
+          "vi": "Đây là danh thiếp của giáo viên.",
+          "answer": "これは せんせいの めいしです。",
+          "romaji": "Kore wa sensei no meishi desu.",
+          "alternatives": [
+            "これは先生の名刺です。",
+            "これはせんせいの名刺です。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "の",
+              "explain": "Chỉ danh thiếp thuộc về thầy giáo."
+            }
+          ]
+        },
+        {
+          "id": "L2-015",
+          "vi": "Ra vậy. Cảm ơn bạn rất nhiều.",
+          "answer": "そうですか。どうも ありがとうございます。",
+          "romaji": "Sou desu ka. Doumo arigatou gozaimasu.",
+          "alternatives": [
+            "そうですか。どうもありがとうございます。",
+            "そうですか。ありがとうございます。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "か",
+              "explain": "Trong 'そうですか' đọc giọng đi xuống để biểu thị sự tiếp nhận thông tin mới (ra vậy / thế à)."
+            }
+          ]
+        },
+        {
+          "id": "L2-016",
+          "vi": "Chiếc ô kia là của ai vậy?",
+          "answer": "あのかさは だれのですか。",
+          "romaji": "Ano kasa wa dare no desu ka.",
+          "alternatives": [
+            "あの傘は誰のですか。",
+            "あの傘はだれのですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu 'chiếc ô đằng kia'."
+            },
+            {
+              "particle": "の",
+              "explain": "Rút gọn sở hữu 'của ai'."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "title": "Bài 3: Nơi chốn & Phương hướng",
+      "grammarPoints": [
+        "ここ / そこ / あそこ / どこ (Nơi chốn: đây/đó/kia/đâu)",
+        "こちら / そちら / あちら / どちら (Phương hướng / Lịch sự)",
+        "N は <nơi chốn> です (N ở đâu)",
+        "どこ / どちら ですか (Hỏi địa điểm / xuất xứ / công ty)",
+        "N1 の N2 (Xuất xứ sản phẩm: xe Nhật, rượu Pháp)",
+        "いくらですか (Hỏi giá tiền)"
+      ],
+      "exercises": [
+        {
+          "id": "L3-001",
+          "vi": "Nhà vệ sinh ở đằng kia.",
+          "answer": "おてあらいは あそこです。",
+          "romaji": "Otearai wa asoko desu.",
+          "alternatives": [
+            "トイレはあそこです。",
+            "お手洗いはあそこです。",
+            "おてあらいはあちらです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu nhà vệ sinh (đối tượng cần xác định vị trí)."
+            }
+          ]
+        },
+        {
+          "id": "L3-002",
+          "vi": "Văn phòng ở chỗ này.",
+          "answer": "じむしょは ここです。",
+          "romaji": "Jimusho wa koko desu.",
+          "alternatives": [
+            "事務所はここです。",
+            "事務所はこちらです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu văn phòng làm việc."
+            }
+          ]
+        },
+        {
+          "id": "L3-003",
+          "vi": "Quầy lễ tân ở đâu vậy?",
+          "answer": "うけつけは どこですか。",
+          "romaji": "Uketsuke wa doko desu ka.",
+          "alternatives": [
+            "受付はどこですか。",
+            "受付はどちらですか。",
+            "うけつけはどちらですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu quầy lễ tân là đối tượng hỏi nơi chốn."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ nghi vấn."
+            }
+          ]
+        },
+        {
+          "id": "L3-004",
+          "vi": "Thầy giáo đang ở phòng họp.",
+          "answer": "せんせいは かいぎしつです。",
+          "romaji": "Sensei wa kaigishitsu desu.",
+          "alternatives": [
+            "先生は会議室です。",
+            "先生は会議室にいます。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu thầy giáo (chủ thể)."
+            }
+          ]
+        },
+        {
+          "id": "L3-005",
+          "vi": "Cầu thang máy ở hướng đằng kia.",
+          "answer": "エレベーターは あちらです。",
+          "romaji": "Erebeetaa wa achira desu.",
+          "alternatives": [
+            "エレベーターはあそこです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu thang máy làm chủ đề."
+            }
+          ]
+        },
+        {
+          "id": "L3-006",
+          "vi": "Quốc gia của bạn ở đâu vậy?",
+          "answer": "おくには どちらですか。",
+          "romaji": "Okuni wa dochira desu ka.",
+          "alternatives": [
+            "お国はどちらですか。",
+            "国はどこですか。",
+            "お国はどこですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu đất nước của người đối thoại."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi."
+            }
+          ]
+        },
+        {
+          "id": "L3-007",
+          "vi": "Công ty của bạn là công ty nào?",
+          "answer": "かいしゃは どちらですか。",
+          "romaji": "Kaisha wa dochira desu ka.",
+          "alternatives": [
+            "会社はどちらですか。",
+            "会社はどこですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu nơi làm việc."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi."
+            }
+          ]
+        },
+        {
+          "id": "L3-008",
+          "vi": "Đây là rượu vang của Pháp.",
+          "answer": "これは フランスの ワインです。",
+          "romaji": "Kore wa Furansu no wain desu.",
+          "alternatives": [
+            "これはフランスのワインです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu đồ vật này."
+            },
+            {
+              "particle": "の",
+              "explain": "Chỉ xuất xứ / quốc gia sản xuất (rượu vang xuất xứ từ Pháp)."
+            }
+          ]
+        },
+        {
+          "id": "L3-009",
+          "vi": "Chiếc máy ảnh này giá bao nhiêu tiền?",
+          "answer": "このカメラは いくらですか。",
+          "romaji": "Kono kamera wa ikura desu ka.",
+          "alternatives": [
+            "このカメラは、いくらですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu chiếc máy ảnh cần hỏi giá."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi đi kèm 'いくら' (bao nhiêu tiền)."
+            }
+          ]
+        },
+        {
+          "id": "L3-010",
+          "vi": "Nó có giá 18.000 yên.",
+          "answer": "いちまんはっせんえんです。",
+          "romaji": "Ichiman hassen-en desu.",
+          "alternatives": [
+            "18,000円です。",
+            "18000円です。",
+            "一万八千円です。"
+          ],
+          "particleNotes": []
+        },
+        {
+          "id": "L3-011",
+          "vi": "Phòng học ở tầng 3.",
+          "answer": "きょうしつは さんがいです。",
+          "romaji": "Kyoushitsu wa sangai desu.",
+          "alternatives": [
+            "教室は3階です。",
+            "教室は三階です。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu lớp học."
+            }
+          ]
+        },
+        {
+          "id": "L3-012",
+          "vi": "Nhà của bạn ở đâu?",
+          "answer": "うちは どこですか。",
+          "romaji": "Uchi wa doko desu ka.",
+          "alternatives": [
+            "お宅はどちらですか。",
+            "家はどこですか。",
+            "おうちはどこですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu ngôi nhà."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi."
+            }
+          ]
+        },
+        {
+          "id": "L3-013",
+          "vi": "Quầy bán rượu ở tầng hầm B1.",
+          "answer": "ワインうりばは ちかいっかいです。",
+          "romaji": "Wain-uriba wa chika ikkai desu.",
+          "alternatives": [
+            "ワイン売り場は地下1階です。",
+            "ワイン売り場は地下一階です。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu quầy hàng."
+            }
+          ]
+        },
+        {
+          "id": "L3-014",
+          "vi": "Chiếc xe này là xe của Nhật Bản.",
+          "answer": "このくるまは にほんのくるまです。",
+          "romaji": "Kono kuruma wa Nihon no kuruma desu.",
+          "alternatives": [
+            "この車は日本の車です。",
+            "この車は日本のものです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu chiếc xe này."
+            },
+            {
+              "particle": "の",
+              "explain": "Chỉ nơi sản xuất (xe do Nhật sản xuất)."
+            }
+          ]
+        },
+        {
+          "id": "L3-015",
+          "vi": "Xin lỗi, bưu điện ở đâu vậy?",
+          "answer": "すみません、ゆうびんきょくは どこですか。",
+          "romaji": "Sumimasen, yuubinkyoku wa doko desu ka.",
+          "alternatives": [
+            "すみません、郵便局はどこですか。",
+            "すみません郵便局はどこですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu bưu điện là đối tượng hỏi thăm đường."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi."
+            }
+          ]
+        },
+        {
+          "id": "L3-016",
+          "vi": "Cho tôi xem chiếc áo sơ mi này.",
+          "answer": "このシャツを みせてください。",
+          "romaji": "Kono shatsu o misete kudasai.",
+          "alternatives": [
+            "このシャツを見せてください。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "を",
+              "explain": "Đọc là 'o', đánh dấu đối tượng chịu tác động của hành động xem (cho tôi xem chiếc áo)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "title": "Bài 4: Thời gian, Giờ giấc & Động từ",
+      "grammarPoints": [
+        "今〜時〜分です (Bây giờ là mấy giờ mấy phút)",
+        "V ます / V ません / V ました / V ませんでした",
+        "N (thời gian) に V (Hành động diễn ra vào thời điểm cụ thể)",
+        "N1 から N2 まで (Từ N1 đến N2)",
+        "N1 と N2 (Và - nối danh từ)"
+      ],
+      "exercises": [
+        {
+          "id": "L4-001",
+          "vi": "Bây giờ là 7 giờ rưỡi.",
+          "answer": "いま しちじはんです。",
+          "romaji": "Ima shichiji-han desu.",
+          "alternatives": [
+            "今7時半です。",
+            "いま7時半です。",
+            "今は7時30分です。"
+          ],
+          "particleNotes": []
+        },
+        {
+          "id": "L4-002",
+          "vi": "Mỗi sáng tôi thức dậy vào lúc 6 giờ.",
+          "answer": "まいあさ ろくじに おきます。",
+          "romaji": "Maiasa rokuji ni okimasu.",
+          "alternatives": [
+            "毎朝6時に起きます。",
+            "毎朝六時に起きます。",
+            "まいあさ6時におきます。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "に",
+              "explain": "Đứng sau từ chỉ thời gian có con số cụ thể (6 giờ) để chỉ thời điểm hành động xảy ra."
+            }
+          ]
+        },
+        {
+          "id": "L4-003",
+          "vi": "Tối hôm qua tôi đã học từ 8 giờ đến 10 giờ.",
+          "answer": "きのうのばん はちじから じゅうじまで べんきょうしました。",
+          "romaji": "Kinou no ban hachiji kara juuji made benkyoushimashita.",
+          "alternatives": [
+            "昨日の晩8時から10時まで勉強しました。",
+            "昨晩8時から10時まで勉強しました。",
+            "ゆうべ8時から10時まで勉強しました。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "の",
+              "explain": "Nối thời điểm 'tối' của ngày 'hôm qua'."
+            },
+            {
+              "particle": "から",
+              "explain": "Chỉ mốc thời gian bắt đầu (từ 8 giờ)."
+            },
+            {
+              "particle": "まで",
+              "explain": "Chỉ mốc thời gian kết thúc (đến 10 giờ)."
+            }
+          ]
+        },
+        {
+          "id": "L4-004",
+          "vi": "Ngân hàng làm việc từ 9 giờ đến 3 giờ.",
+          "answer": "ぎんこうは くじから さんじまでです。",
+          "romaji": "Ginkou wa kuji kara sanji made desu.",
+          "alternatives": [
+            "銀行は9時から3時までです。",
+            "銀行は九時から三時までです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu ngân hàng làm chủ đề."
+            },
+            {
+              "particle": "から",
+              "explain": "Điểm bắt đầu thời gian."
+            },
+            {
+              "particle": "まで",
+              "explain": "Điểm kết thúc thời gian."
+            }
+          ]
+        },
+        {
+          "id": "L4-005",
+          "vi": "Hôm qua bạn đã không làm việc phải không?",
+          "answer": "きのう はたらきませんでしたか。",
+          "romaji": "Kinou hatarakimasen deshita ka.",
+          "alternatives": [
+            "昨日は働きませんでしたか。",
+            "昨日はたらきませんでしたか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi cuối câu chia ở quá khứ phủ định (〜ませんでしたか)."
+            }
+          ]
+        },
+        {
+          "id": "L4-006",
+          "vi": "Ngày nghỉ là thứ bảy và chủ nhật.",
+          "answer": "やすみは どようびと にちようびです。",
+          "romaji": "Yasumi wa doyoubi to nichiyoubi desu.",
+          "alternatives": [
+            "休みは土曜日と日曜日です。",
+            "やすみは土曜日と日曜日です。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu ngày nghỉ là chủ đề."
+            },
+            {
+              "particle": "と",
+              "explain": "Mang nghĩa 'và', dùng để nối hai danh từ liệt kê đầy đủ (thứ 7 và chủ nhật)."
+            }
+          ]
+        },
+        {
+          "id": "L4-007",
+          "vi": "Tối nay bạn ngủ lúc mấy giờ?",
+          "answer": "こんばん なんじに ねますか。",
+          "romaji": "Konban nanji ni nemasu ka.",
+          "alternatives": [
+            "今晩何時に寝ますか。",
+            "今夜何時に寝ますか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "に",
+              "explain": "Đi kèm từ để hỏi thời gian 'mấy giờ' (なんじに) để hỏi thời điểm diễn ra hành động."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi."
+            }
+          ]
+        },
+        {
+          "id": "L4-008",
+          "vi": "Thư viện nghỉ vào ngày thứ hai.",
+          "answer": "としょかんは げつようびが やすみです。",
+          "romaji": "Toshokan wa getsuyoubi ga yasumi desu.",
+          "alternatives": [
+            "図書館は月曜日が休みです。",
+            "図書館は月曜日に休みます。",
+            "としょかんは月曜日が休みです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu thư viện."
+            },
+            {
+              "particle": "が",
+              "explain": "Nhấn mạnh chủ ngữ phụ (ngày thứ hai là ngày nghỉ)."
+            }
+          ]
+        },
+        {
+          "id": "L4-009",
+          "vi": "Bây giờ ở Tokyo là mấy giờ?",
+          "answer": "とうきょうは いま なんじですか。",
+          "romaji": "Toukyou wa ima nanji desu ka.",
+          "alternatives": [
+            "東京は今何時ですか。",
+            "いま東京は何時ですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu Tokyo là địa điểm chủ đề cần biết giờ giấc."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi."
+            }
+          ]
+        },
+        {
+          "id": "L4-010",
+          "vi": "Sáng nay tôi đã thức dậy lúc 5 giờ.",
+          "answer": "けさ ごじに おきました。",
+          "romaji": "Kesa goji ni okimashita.",
+          "alternatives": [
+            "今朝5時に起きました。",
+            "けさ5時におきました。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "に",
+              "explain": "Chỉ thời điểm 5 giờ trong quá khứ."
+            }
+          ]
+        },
+        {
+          "id": "L4-011",
+          "vi": "Hôm nay tôi không học bài.",
+          "answer": "きょうは べんきょうしません。",
+          "romaji": "Kyou wa benkyoushimasen.",
+          "alternatives": [
+            "今日は勉強しません。",
+            "きょうは勉強しません。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu thời gian 'hôm nay' kèm hàm ý tương phản/nhấn mạnh."
+            }
+          ]
+        },
+        {
+          "id": "L4-012",
+          "vi": "Giờ nghỉ trưa từ 12 giờ đến 1 giờ.",
+          "answer": "ひるやすみは じゅうにじから いちじまでです。",
+          "romaji": "Hiruyasumi wa juuniji kara ichiji made desu.",
+          "alternatives": [
+            "昼休みは12時から1時までです。",
+            "昼休みは十二時から一時までです。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu giờ nghỉ trưa."
+            },
+            {
+              "particle": "から",
+              "explain": "Từ 12 giờ."
+            },
+            {
+              "particle": "まで",
+              "explain": "Đến 1 giờ."
+            }
+          ]
+        },
+        {
+          "id": "L4-013",
+          "vi": "Ngày mai bạn cũng làm việc à?",
+          "answer": "あしたも はたらきますか。",
+          "romaji": "Ashita mo hatarakimasu ka.",
+          "alternatives": [
+            "明日も働きますか。",
+            "あすも働きますか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "も",
+              "explain": "Biểu thị sự đồng nhất thời gian (ngày mai 'cũng' làm việc)."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi."
+            }
+          ]
+        },
+        {
+          "id": "L4-014",
+          "vi": "Kỳ thi bắt đầu từ thứ mấy?",
+          "answer": "しけんは なんようびからですか。",
+          "romaji": "Shiken wa nanyoubi kara desu ka.",
+          "alternatives": [
+            "試験は何曜日からですか。",
+            "テストは何曜日からですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu kỳ thi."
+            },
+            {
+              "particle": "から",
+              "explain": "Bắt đầu từ thứ mấy."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi."
+            }
+          ]
+        },
+        {
+          "id": "L4-015",
+          "vi": "Bạn vất vả quá nhỉ!",
+          "answer": "たいへんですね。",
+          "romaji": "Taihen desu ne.",
+          "alternatives": [
+            "大変ですね。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "ね",
+              "explain": "Trợ từ cuối câu biểu lộ sự cảm thông, chia sẻ và đồng tình của người nói."
+            }
+          ]
+        },
+        {
+          "id": "L4-016",
+          "vi": "Tôi làm việc từ thứ hai đến thứ sáu.",
+          "answer": "げつようびから きんようびまで はたらきます。",
+          "romaji": "Getsuyoubi kara kinyoubi made hatarakimasu.",
+          "alternatives": [
+            "月曜日から金曜日まで働きます。",
+            "月曜から金曜まで働きます。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "から",
+              "explain": "Từ thứ hai."
+            },
+            {
+              "particle": "まで",
+              "explain": "Đến thứ sáu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "title": "Bài 5: Điểm đến, Phương tiện & Thời điểm",
+      "grammarPoints": [
+        "N (địa điểm) へ 行きます / 来ます / 帰ります (Đi/đến/về đâu)",
+        "どこ［へ］も 行きません (Phủ định hoàn toàn: không đi đâu cả)",
+        "N (phương tiện) で 行きます (Đi bằng phương tiện gì)",
+        "N (người/động vật) と V (Làm gì cùng với ai)",
+        "いつ (Khi nào)",
+        "〜よ (Nhấn mạnh thông tin mới cung cấp cho người nghe)"
+      ],
+      "exercises": [
+        {
+          "id": "L5-001",
+          "vi": "Ngày mai tôi sẽ đi siêu thị.",
+          "answer": "あした スーパーへ いきます。",
+          "romaji": "Ashita suupaa e ikimasu.",
+          "alternatives": [
+            "明日スーパーへ行きます。",
+            "明日スーパーに行きます。",
+            "あしたスーパーにいきます。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "へ",
+              "explain": "Đọc là 'e', chỉ phương hướng hoặc điểm đến của hành động di chuyển (đi tới siêu thị)."
+            }
+          ]
+        },
+        {
+          "id": "L5-002",
+          "vi": "Chủ nhật tôi không đi đâu cả.",
+          "answer": "にちようびは どこへも いきません。",
+          "romaji": "Nichiyoubi wa doko e mo ikimasen.",
+          "alternatives": [
+            "日曜日はどこへも行きません。",
+            "日曜日はどこも行きません。",
+            "日曜日はどこにも行きません。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu chủ nhật làm chủ đề."
+            },
+            {
+              "particle": "へ",
+              "explain": "Chỉ hướng đi."
+            },
+            {
+              "particle": "も",
+              "explain": "Kết hợp từ nghi vấn (どこ) + も + động từ phủ định để phủ định hoàn toàn (không đi bất cứ đâu)."
+            }
+          ]
+        },
+        {
+          "id": "L5-003",
+          "vi": "Tôi đi đến công ty bằng xe buýt.",
+          "answer": "バスで かいしゃへ いきます。",
+          "romaji": "Basu de kaisha e ikimasu.",
+          "alternatives": [
+            "バスで会社へ行きます。",
+            "バスで会社に行きます。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "で",
+              "explain": "Chỉ phương tiện, cách thức giao thông được dùng để di chuyển (đi bằng xe buýt)."
+            },
+            {
+              "particle": "へ",
+              "explain": "Chỉ điểm đến (công ty)."
+            }
+          ]
+        },
+        {
+          "id": "L5-004",
+          "vi": "Tôi đi bộ từ ga về nhà.",
+          "answer": "えきから うちまで あるいて かえります。",
+          "romaji": "Eki kara uchi made aruite kaerimasu.",
+          "alternatives": [
+            "駅から家まで歩いて帰ります。",
+            "駅からうちまで歩いて帰ります。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "から",
+              "explain": "Điểm xuất phát (từ ga)."
+            },
+            {
+              "particle": "まで",
+              "explain": "Điểm kết thúc (đến nhà). Chú ý: 'あるいて' là dạng te không dùng trợ từ で."
+            }
+          ]
+        },
+        {
+          "id": "L5-005",
+          "vi": "Tôi đã đi Nhật Bản cùng với gia đình.",
+          "answer": "かぞくと にほんへ いきました。",
+          "romaji": "Kazoku to Nihon e ikimashita.",
+          "alternatives": [
+            "家族と日本へ行きました。",
+            "家族と一緒に日本へ行きました。",
+            "家族と日本に行きました。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "と",
+              "explain": "Chỉ đối tượng cùng thực hiện hành động (cùng với gia đình)."
+            },
+            {
+              "particle": "へ",
+              "explain": "Chỉ đích đến (nước Nhật)."
+            }
+          ]
+        },
+        {
+          "id": "L5-006",
+          "vi": "Tôi đã đến thư viện một mình.",
+          "answer": "ひとりで としょかんへ いきました。",
+          "romaji": "Hitori de toshokan e ikimashita.",
+          "alternatives": [
+            "一人で図書館へ行きました。",
+            "一人で図書館に行きました。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "で",
+              "explain": "Trong 'ひとりで' biểu thị trạng thái thực hiện hành động (một mình), không dùng trợ từ と."
+            },
+            {
+              "particle": "へ",
+              "explain": "Chỉ nơi đến (thư viện)."
+            }
+          ]
+        },
+        {
+          "id": "L5-007",
+          "vi": "Khi nào bạn về nước?",
+          "answer": "いつ くにへ かえりますか。",
+          "romaji": "Itsu kuni e kaerimasu ka.",
+          "alternatives": [
+            "いつ国へ帰りますか。",
+            "いつ国に帰りますか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "へ",
+              "explain": "Chỉ đích đến (về nước)."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi. Lưu ý 'いつ' không đi kèm trợ từ に."
+            }
+          ]
+        },
+        {
+          "id": "L5-008",
+          "vi": "Tháng sau tôi sẽ về nước.",
+          "answer": "らいげつ くにへ かえります。",
+          "romaji": "Raigetsu kuni e kaerimasu.",
+          "alternatives": [
+            "来月国へ帰ります。",
+            "来月国に帰ります。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "へ",
+              "explain": "Chỉ điểm đến (về đất nước)."
+            }
+          ]
+        },
+        {
+          "id": "L5-009",
+          "vi": "Bạn đã đến Nhật Bản vào lúc nào?",
+          "answer": "いつ にほんへ きましたか。",
+          "romaji": "Itsu Nihon e kimashita ka.",
+          "alternatives": [
+            "いつ日本へ来ましたか。",
+            "いつ日本に来ましたか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "へ",
+              "explain": "Chỉ hướng đến (tới Nhật)."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi trong thì quá khứ (きましたか)."
+            }
+          ]
+        },
+        {
+          "id": "L5-010",
+          "vi": "Tôi đã đến Nhật vào ngày 15 tháng 3.",
+          "answer": "さんがつ じゅうごにちに にほんへ きました。",
+          "romaji": "Sangatsu juugonichi ni Nihon e kimashita.",
+          "alternatives": [
+            "3月15日に日本へ来ました。",
+            "3月15日に日本に来ました。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "に",
+              "explain": "Đứng sau ngày tháng cụ thể (ngày 15 tháng 3) chỉ mốc thời gian."
+            },
+            {
+              "particle": "へ",
+              "explain": "Chỉ điểm đến (Nhật Bản)."
+            }
+          ]
+        },
+        {
+          "id": "L5-011",
+          "vi": "Bạn đi Kyoto cùng với ai vậy?",
+          "answer": "だれと きょうとへ いきますか。",
+          "romaji": "Dare to Kyouto e ikimasu ka.",
+          "alternatives": [
+            "誰と京都へ行きますか。",
+            "誰と京都に行きますか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "と",
+              "explain": "Đi sau từ hỏi だれ để hỏi đối tượng cùng đi (với ai)."
+            },
+            {
+              "particle": "へ",
+              "explain": "Chỉ đích đến (Kyoto)."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi."
+            }
+          ]
+        },
+        {
+          "id": "L5-012",
+          "vi": "Tôi đi bằng tàu Shinkansen.",
+          "answer": "しんかんせんで いきます。",
+          "romaji": "Shinkansen de ikimasu.",
+          "alternatives": [
+            "新幹線で行きます。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "で",
+              "explain": "Chỉ phương tiện tàu cao tốc Shinkansen."
+            }
+          ]
+        },
+        {
+          "id": "L5-013",
+          "vi": "Tàu điện này đi tới Koshien đấy.",
+          "answer": "このでんしゃは こうしえんへ いきますよ。",
+          "romaji": "Kono densha wa Koushien e ikimasu yo.",
+          "alternatives": [
+            "この電車は甲子園へ行きますよ。",
+            "この電車は甲子園に行きますよ。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu chuyến tàu này."
+            },
+            {
+              "particle": "へ",
+              "explain": "Chỉ đích đến là sân Koshien."
+            },
+            {
+              "particle": "よ",
+              "explain": "Trợ từ cuối câu dùng để thông báo hoặc nhấn mạnh thông tin người nghe chưa biết."
+            }
+          ]
+        },
+        {
+          "id": "L5-014",
+          "vi": "Sinh nhật của bạn là khi nào?",
+          "answer": "たんじょうびは いつですか。",
+          "romaji": "Tanjoubi wa itsu desu ka.",
+          "alternatives": [
+            "誕生日はいつですか。",
+            "お誕生日はいつですか。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu ngày sinh nhật là chủ đề."
+            },
+            {
+              "particle": "か",
+              "explain": "Trợ từ hỏi."
+            }
+          ]
+        },
+        {
+          "id": "L5-015",
+          "vi": "Hôm qua anh Miller đã về nhà bằng taxi.",
+          "answer": "きのう ミラーさんは タクシーで うちへ かえりました。",
+          "romaji": "Kinou Miraa-san wa takushii de uchi e kaerimashita.",
+          "alternatives": [
+            "昨日ミラーさんはタクシーでうちへ帰りました。",
+            "昨日ミラーさんはタクシーで家に帰りました。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "は",
+              "explain": "Đánh dấu anh Miller."
+            },
+            {
+              "particle": "で",
+              "explain": "Phương tiện taxi."
+            },
+            {
+              "particle": "へ",
+              "explain": "Hướng về nhà."
+            }
+          ]
+        },
+        {
+          "id": "L5-016",
+          "vi": "Tuần sau tôi sẽ đi Tokyo cùng bạn bè.",
+          "answer": "らいしゅう ともだちと とうきょうへ いきます。",
+          "romaji": "Raishuu tomodachi to Toukyou e ikimasu.",
+          "alternatives": [
+            "来週友達と東京へ行きます。",
+            "来週友人と東京へ行きます。",
+            "来週友達と東京に行きます。"
+          ],
+          "particleNotes": [
+            {
+              "particle": "と",
+              "explain": "Chỉ người cùng đi (cùng với bạn bè)."
+            },
+            {
+              "particle": "へ",
+              "explain": "Chỉ đích đến (Tokyo)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 6,
+      "title": "Bài 6: Tân ngữ & Hoạt động hàng ngày",
+      "grammarPoints": [
+        "N を V (tha động từ)",
+        "N を します",
+        "何 を しますか",
+        "N (địa điểm) で V (nơi diễn ra hành động)",
+        "V ませんか (lời mời)",
+        "V ましょう (lời đề nghị cùng làm)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 7,
+      "title": "Bài 7: Công cụ, Phương tiện & Cho - Nhận",
+      "grammarPoints": [
+        "N (công cụ/phương tiện) で V",
+        "Từ / Câu は 〜語で 何ですか",
+        "N (người) に あげます / かします / おしえます",
+        "N (người) に / から もらいます / かります / ならいます",
+        "もう V ました / まだ V ていません"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 8,
+      "title": "Bài 8: Tính từ đuôi な và đuôi い",
+      "grammarPoints": [
+        "Tính từ な / い です",
+        "Tính từ な / い phủ định",
+        "Tính từ な な N / Tính từ い N",
+        "とても / あまり",
+        "N は どうですか",
+        "N1 は どんな N2 ですか",
+        "〜が、〜 (tương phản)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 9,
+      "title": "Bài 9: Sở thích, Năng lực & Lý do",
+      "grammarPoints": [
+        "N が あります / わかります",
+        "N が すきです / きらいです / じょうずです / へたです",
+        "どんな N が すきですか",
+        "よく / だいたい / たくさん / すこし / あまり / ぜんぜん",
+        "S1 から、S2 (chỉ nguyên nhân, lý do)",
+        "どうして (tại sao)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 10,
+      "title": "Bài 10: Sự tồn tại của người và vật",
+      "grammarPoints": [
+        "N (nơi chốn) に N (vật) が あります",
+        "N (nơi chốn) に N (người/động vật) が います",
+        "N (vật/người) は N (nơi chốn) に あります/います",
+        "Vị trí: 上, 下, 前, 後ろ, 右, 左, 中, 外, 隣, 近く, 間",
+        "N1 や N2 (など)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 11,
+      "title": "Bài 11: Lượng từ & Số lần",
+      "grammarPoints": [
+        "Đếm đồ vật: ひとつ, ふたつ... / Lượng từ",
+        "Lượng từ (khoảng thời gian) に 〜回 V",
+        "Lượng từ だけ / N だけ",
+        "どのくらい (mất bao lâu / bao nhiêu tiền)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 12,
+      "title": "Bài 12: So sánh & Thì quá khứ của tính từ/danh từ",
+      "grammarPoints": [
+        "Quá khứ của Tính từ な / Danh từ",
+        "Quá khứ của Tính từ い",
+        "N1 は N2 より Tính từ です (N1 hơn N2)",
+        "N1 と N2 と どちらが Tính từ ですか",
+        "N (phạm vi) で [何/どこ/だれ/いつ] が いちばん Tính từ ですか"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 13,
+      "title": "Bài 13: Mong muốn & Mục đích di chuyển",
+      "grammarPoints": [
+        "N が ほしいです (muốn có cái gì)",
+        "V ます たいです (muốn làm gì)",
+        "N (địa điểm) へ V ます / N に 行きます/来ます/帰ります (đi để làm gì)",
+        "どこか / 何か (đại từ bất định)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 14,
+      "title": "Bài 14: Thể Te & Sai khiến / Yêu cầu",
+      "grammarPoints": [
+        "Nhóm động từ & Cách chia thể て (V て)",
+        "V て ください (xin hãy...)",
+        "V て います (đang diễn ra)",
+        "V ます ましょうか (tôi làm giúp nhé)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 15,
+      "title": "Bài 15: Cho phép & Cấm đoán",
+      "grammarPoints": [
+        "V ても いいですか (được phép làm gì không)",
+        "V ては いけません (không được làm gì - cấm)",
+        "V て います (trạng thái tiếp diễn / nghề nghiệp / tình trạng hôn nhân)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 16,
+      "title": "Bài 16: Nối câu & Trình tự hành động",
+      "grammarPoints": [
+        "V1 て, V2 て, V3 ます (chuỗi hành động)",
+        "Tính từ い → くて / Tính từ な・N → で (nối tính từ/danh từ)",
+        "V1 てから、V2 (sau khi làm V1 thì làm V2)",
+        "N1 は N2 が Tính từ (miêu tả đặc điểm bộ phận)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 17,
+      "title": "Bài 17: Thể Nai & Bắt buộc / Không cần thiết",
+      "grammarPoints": [
+        "Cách chia thể ない (V ない)",
+        "V ないで ください (xin đừng làm gì)",
+        "V なければ なりません (phải làm gì)",
+        "V なくても いいです (không cần làm gì cũng được)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 18,
+      "title": "Bài 18: Thể Từ điển & Khả năng / Sở thích",
+      "grammarPoints": [
+        "Cách chia thể từ điển (V る)",
+        "V る こと / N が できます (có thể làm gì)",
+        "わたしの しゅみは V る こと / N です (sở thích là...)",
+        "V1 る / N の / Thời gian の まえに、V2 (trước khi...)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 19,
+      "title": "Bài 19: Thể Ta & Kinh nghiệm / Liệt kê",
+      "grammarPoints": [
+        "Cách chia thể た (V た)",
+        "V た ことが あります (đã từng làm gì)",
+        "V たり、V たり します (liệt kê hành động tiêu biểu)",
+        "Tính từ い → くなります / Tính từ な・N → に なります (trở nên, trở thành)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 20,
+      "title": "Bài 20: Thể Thông thường (Futsuukei)",
+      "grammarPoints": [
+        "Thể lịch sự (丁寧形) vs Thể thông thường (普通形)",
+        "Hội thoại thân mật bằng thể thông thường",
+        "Biến đổi ngữ điệu câu hỏi trong văn nói thân mật"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 21,
+      "title": "Bài 21: Suy đoán & Trích dẫn",
+      "grammarPoints": [
+        "Thể thông thường と おもいます (tôi nghĩ rằng...)",
+        "「Câu nói」 / Thể thông thường と いいました (nói rằng...)",
+        "Thể thông thường でしょう？ (có đúng không?)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 22,
+      "title": "Bài 22: Mệnh đề định ngữ bổ nghĩa danh từ",
+      "grammarPoints": [
+        "Mệnh đề định ngữ: Thể thông thường + N",
+        "Chủ ngữ trong mệnh đề định ngữ dùng が thay vì は",
+        "V る / V ない / V た 時間 / 約束 / 用事 (thời gian/hẹn/việc làm gì)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 23,
+      "title": "Bài 23: Khi & Hễ mà (とき & と)",
+      "grammarPoints": [
+        "V る / V た / V ない とき (khi làm gì)",
+        "Tính từ / N の とき (khi còn nhỏ, khi rảnh rỗi)",
+        "V る と、〜 (hễ mà / cứ... là...)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 24,
+      "title": "Bài 24: Cho nhận hành động (てあげる, てもらう, てくれる)",
+      "grammarPoints": [
+        "N (người) に V て あげます (làm gì cho ai)",
+        "N (người) に V て もらいます (nhận được hành động ai làm giúp)",
+        "N (người) が V て くれます (ai làm gì cho mình/người thân của mình)"
+      ],
+      "exercises": []
+    },
+    {
+      "lesson": 25,
+      "title": "Bài 25: Điều kiện (たら & ても)",
+      "grammarPoints": [
+        "V たら / Tính từ たら / N だったら (nếu... thì...)",
+        "V たら (sau khi làm gì thì làm tiếp...)",
+        "V ても / Tính từ ても / N でも (dù... cũng...)"
+      ],
+      "exercises": []
+    }
+  ]
+}
