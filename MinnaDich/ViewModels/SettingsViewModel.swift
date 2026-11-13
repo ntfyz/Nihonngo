@@ -46,12 +46,30 @@ public enum FontSizeOption: Double, CaseIterable, Identifiable {
 public final class SettingsViewModel: ObservableObject {
     public static let shared = SettingsViewModel()
     
-    @AppStorage("setting_show_romaji") public var showRomaji: Bool = true
-    @AppStorage("setting_app_theme") public var themePreference: AppThemePreference = .system
-    @AppStorage("setting_font_size") public var fontSizeScale: Double = 1.0
+    @Published public var showRomaji: Bool {
+        didSet { UserDefaults.standard.set(showRomaji, forKey: "setting_show_romaji") }
+    }
+    
+    @Published public var themePreference: AppThemePreference {
+        didSet { UserDefaults.standard.set(themePreference.rawValue, forKey: "setting_app_theme") }
+    }
+    
+    @Published public var fontSizeScale: Double {
+        didSet { UserDefaults.standard.set(fontSizeScale, forKey: "setting_font_size") }
+    }
     
     @Published public var showResetConfirmAlert: Bool = false
     @Published public var resetSuccessToast: Bool = false
+    
+    public init() {
+        self.showRomaji = UserDefaults.standard.object(forKey: "setting_show_romaji") as? Bool ?? true
+        
+        let savedTheme = UserDefaults.standard.string(forKey: "setting_app_theme") ?? "system"
+        self.themePreference = AppThemePreference(rawValue: savedTheme) ?? .system
+        
+        let savedSize = UserDefaults.standard.double(forKey: "setting_font_size")
+        self.fontSizeScale = savedSize > 0 ? savedSize : 1.0
+    }
     
     public var appVersionString: String {
         let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0.0"

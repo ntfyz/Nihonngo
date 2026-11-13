@@ -87,8 +87,8 @@ public struct PracticeView: View {
                         }
                         .padding()
                     }
-                    .onChange(of: viewModel.answerStatus) { newStatus in
-                        if newStatus != .unsubmitted {
+                    .onChange(of: viewModel.answerStatus) { _ in
+                        if viewModel.answerStatus != .unsubmitted {
                             withAnimation {
                                 proxy.scrollTo("ResultView", anchor: .bottom)
                             }
